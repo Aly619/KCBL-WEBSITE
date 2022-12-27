@@ -14,6 +14,7 @@ const Company=()=>{
         <section className="company">
     
             <div className="logos">
+                
                 <img src={c1} alt=""/>
                 <img src={c2} alt=""/>
                 <img src={c3} alt=""/>

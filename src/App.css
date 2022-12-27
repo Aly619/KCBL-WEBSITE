@@ -96,6 +96,7 @@ a {
 }
 
 /* ---------------------Hero-Section--------------------- */
+
 .globe {
     /* border: 1px solid red; */
     /* padding-top: 26px; */
@@ -120,21 +121,15 @@ a {
 }
 
 .hero {
-    /* border: 1px solid red; */
     position: relative;
     /* width: 100%; */
     padding-left: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 50px; */
-    /* top: 0; */
-
-
 }
 
 .hero .hero-text {
-    /* border: 1px solid red; */
     padding: 85px 0;
     width: 620px;
 }
@@ -229,16 +224,23 @@ a {
 
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    /* gap: 20px; */
     padding-bottom: 60px;
+}
+.cards .dcards{
+    padding: 0 5px;
+}
+.cards .dcards img{
+    height: 285px;
+    width: 330px;
 }
 
 
 .dcards .rowp {
     padding: 14px 0;
-    width: 380px;
+    width: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,11 +248,11 @@ a {
 
 .cards .dcards img {
     border-radius: 10px;
-    width: 380px;
+    width: 368px;
 }
 
 .cards .dcards p {
-    width: 380px;
+    width: 360px;
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
@@ -259,7 +261,7 @@ a {
 
 .cards .dcards h2 {
     padding-bottom: 20px;
-    width: 380px;
+    width: 360px;
     font-weight: 700;
     font-size: 26px;
     line-height: 27px;
